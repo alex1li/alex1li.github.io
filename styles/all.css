@@ -50,10 +50,6 @@ html, body {
     border-bottom: 4px solid #979797;
 }
 
-.subsection-title-wrapper {
-    
-}
-
 .subsection-title {
     font-size: 2em;
     color: #4a4a4a;
@@ -63,6 +59,11 @@ html, body {
     z-index: 1;
     margin: 0;
     margin-bottom: 5px;
+}
+
+.subsection-subtitle {
+    font-size: 2em;
+    font-weight: 200;
 }
 
 .subsection-title-divider {
@@ -88,7 +89,7 @@ html, body {
 }
 
 .text-block {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #4a4a4a;
     font-family: 'Lato', 'Helvetica Neue', serif;
     font-weight: 300;
@@ -96,14 +97,15 @@ html, body {
 }
 
 .ext-button {
-    color: #4a4a4a;
-    font-size: 1.25em;
+    color: white;
+    font-size: 1em;
     font-family: 'Lato', 'Helvetica Neue', serif;
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
     border: 1px #979797 solid;
     padding: 10px 15px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .ext-button:hover {
@@ -111,7 +113,7 @@ html, body {
     background-color: #6C92BF;
     border: 1px #6C92BF solid;
     text-decoration: none;
-    transition: 0.4s;
+    transition: 0.2s;
     cursor: pointer;
 }
 
@@ -134,28 +136,28 @@ html, body {
 }
 
 #preloading-banner-wrapper {
-    background: rgba(136, 169, 207, 0.65);
-    position: relative;
-    height: 80vh;
+    background-image: url(../images/work/desktopB&W.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 90vh;
     width: 100vw;
-    overflow: hidden;
-    display: none;
 }
 
 #banner-title-wrapper {
     position: relative;
-    top: 30vh;
+    top: 13vh;
     text-align: center;
 }
 
 #banner-title {
     margin: 0;
-    font-size: 8em;
-    color: #4a4a4a;
+    font-size: 3em;
+    color: white;
 }
 
 #banner-buttons {
-    margin-top: 20px;
+    margin-top: 70px;
     text-align: center;
     font-size: 1.5em;
 }
@@ -163,7 +165,7 @@ html, body {
 #banner-buttons .ext-button {
     margin-left: 10px;
     margin-right: 10px;
-    border-color: #4a4a4a;
+    border-color: white;
 }
 
 #banner-buttons .ext-button:hover {
@@ -174,10 +176,25 @@ html, body {
     color: #4a4a4a;
 }
 
+#twin-peaks-wrapper {
+  position: relative;
+   top: 10vh;
+
+}
+.twin-peaks-image {
+  display: block;
+  margin: auto;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
 /* Overview Section Styles ************************/
 
 #overview-headshot {
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
 #overview-collage-wrapper {
@@ -187,18 +204,18 @@ html, body {
     padding: 0;
 }
 
-.overview-image {
+.overview- {
     width: 250px;
     position: relative;
     margin: 0;
     padding: 0;
 }
 
-#overview-image-1 {
+#overview--1 {
     float: left;
 }
 
-#overview-image-2 {
+#overview--2 {
     float: right;
     top: -150px;
 }
@@ -212,10 +229,11 @@ html, body {
     padding-top: 20px;
 }
 
+
 /* Work Experience Styles **************************/
 
 #work-exp-wrapper {
-    margin-top: 200px;
+    margin-top: 30px;
 }
 
 .work-section-wrapper {
@@ -223,20 +241,29 @@ html, body {
     margin-bottom: 100px;
 }
 
-#capitalone-logo-wrapper {
-    margin-top: 25%;
+
+#rocket-video-wrapper {
 }
 
-#redroute-icon-wrapper {
-    
+.launch-day {
+  dispaly: block;
+  margin: auto;
+}
+
+#aaar-wrapper {
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
 }
 
 .work-exp-image {
     width: 100%;
 }
 
-#cornell-logo-wrapper {
-    text-align: right;
+#cuabs-wrapper {
+    width: 560px;
+    height: 300px;
+    overflow: hidden;
 }
 
 #ta-experience-wrapper {
@@ -263,7 +290,7 @@ html, body {
 /* Web Development Styles ***************************/
 
 #web-dev-wrapper {
-    
+
 }
 
 .web-dev-thumb {
@@ -308,7 +335,7 @@ html, body {
     font-family: "Lato", "Helvetica Neue", serif;
     font-weight: 400;
     transition: 0.4s;
-    margin-top: 15px;
+    line-height: 70px;
 }
 
 .thumb-caption {
@@ -323,11 +350,13 @@ html, body {
 /* Projects Styles ************************************/
 
 #projects-wrapper {
-    
+
 }
 
-#sun-img-wrapper {
-    
+#locke-wrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 }
 
 #spoofify-img {
@@ -336,31 +365,29 @@ html, body {
 }
 
 #sun-text-wrapper {
-    margin-top: 120px;
-    margin-bottom: 0;
 }
 
 #sun-img {
-    width: 100%;    
+    width: 100%;
 }
 
 #daily-sun-image-wrapper {
-    position: absolute;   
+    position: absolute;
 }
 
 #sun-image-1 {
-    
+
 }
 
 #sun-image-2 {
-    
+
 }
 
 #sun-image-3 {
     top: -525px;
 }
 
-.daily-sun-image {
+.daily-sun- {
     position: relative;
     width: 100%;
 }
@@ -421,7 +448,7 @@ html, body {
     font-family: 'Lato', 'Helvetica Neue', serif;
     font-weight: 300;
     color: #fff;
-    background-color: #6c92bf;  
+    background-color: #6c92bf;
     border: solid 1px #6c92bf;
 }
 
@@ -476,6 +503,7 @@ footer {
 .contact-header {
     font-family: Lato, 'Helvetica Neue', serif;
     font-weight: 400;
+    margin-top: 30px;
 }
 
 .mail-link {
@@ -498,7 +526,7 @@ footer {
     font-weight: 300;
     color: #4a4a4a;
     margin-top: 35px;
-    
+
 }
 
 /* Preloading Styles ***************************************/
@@ -519,47 +547,6 @@ footer {
     position: absolute;
 }
 
-#sphere-1 {
-    left: -5vw;
-    top: -10vh;
-}
-
-#sphere-2 {
-    transform: rotate(26deg);
-    left: 22vw;
-    top: 8vh;
-}
-
-#sphere-3 {
-    transform: rotate(286deg);
-    left: 80vw;
-    top: -5vh;
-}
-
-#sphere-4 {
-    transform: rotate(212deg);
-    left: 65vw;
-    top: 40vh;
-}
-
-#sphere-5 {
-    transform: rotate(13deg);
-    left: 5vw;
-    top: 50vh;
-}
-
-#sphere-6 {
-    transform: rotate(-120deg);
-    left: 30vw;
-    top: 90vh;
-}
-
-#sphere-7 {
-    transform: rotate(100deg);
-    left: 80vw;
-    top: 80vh;
-}
-
 #loader-wrapper {
     top: 40vh;
     position: relative;
@@ -578,16 +565,26 @@ footer {
     color: #4a4a4a;
 }
 
+#grey-background {
+  background: black;
+}
+
+#camp-wrapper {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
 /* Begin Media Queries */
 @media(max-width: 1199px) and (min-width: 992px) {
     #overview-headshot {
         margin-top: 30px;
     }
-    
+
     #work-exp-wrapper {
         margin-top: 100px;
     }
-    
+
     .work-section-wrapper {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -598,34 +595,34 @@ footer {
     #sphere-2 {
         display: none;
     }
-    
+
     .work-section-wrapper {
         margin-top: 40px;
         margin-bottom: 0;
     }
-    
+
     #work-exp-wrapper {
         margin-top: 30px;
     }
-    
+
     #overview-headshot {
-        margin-top: 10px;   
+        margin-top: 10px;
     }
-    
+
     .subsection-title-wrapper {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
     }
-    
+
     .subsection-text-wrapper .text-block {
         text-align: left;
     }
-    
+
     #sun-text-wrapper {
         margin-top: 10px;
         margin-bottom: 50px;
     }
-    
+
     footer {
         height: 200px;
     }
@@ -635,88 +632,88 @@ footer {
     #sphere-2 {
         display: none;
     }
-    
+
     #sphere-5 {
         display: none;
     }
-    
+
     #banner-title {
-        font-size: 4em;
+        font-size: 2em;
     }
-    
+
     #banner-buttons {
         font-size: 1em;
     }
-    
+
     .section-title {
         font-size: 2em;
     }
-    
+
     .subsection-title {
         font-size: 1.5em;
     }
-    
+
     .thumb-overlay-text {
         font-size: 1.25em;
     }
-    
+
     .text-block {
-        font-size: 1.1em;
+        font-size: 1em;
     }
-    
+
     .ext-link {
         font-size: 1.5em;
     }
-    
+
     .ta-experience-header {
         font-size: 1em;
     }
-    
+
     .ta-experience-subheader {
         font-size: 1em;
     }
-    
+
     .work-section-wrapper {
         margin-top: 40px;
         margin-bottom: 0;
     }
-    
+
     #work-exp-wrapper {
         margin-top: 30px;
     }
-    
+
     #overview-headshot {
-        margin-top: 10px;   
+        margin-top: 10px;
     }
-    
+
     .subsection-title-wrapper {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
     }
-    
+
     .subsection-text-wrapper .text-block {
         text-align: left;
     }
-        
+
     footer {
         height: 225px;
     }
-    
+
     #sun-text-wrapper {
         margin-top: 10px;
         margin-bottom: 50px;
     }
-    
+
     .social-icon {
         width: 48px;
         height: 48px;
     }
-    
+
     .social-icon-img {
         width: 48px;
         height: 48px;
     }
-    
+
     #copyright {
         font-size: 0.75em;
     }
