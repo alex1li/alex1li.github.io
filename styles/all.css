@@ -632,6 +632,14 @@ footer {
     footer {
         height: 200px;
     }
+
+    .video-frame{
+      height: 290px;
+    }
+
+    #locke-wrapper {
+      margin: auto
+    }
 }
 
 @media(max-width: 767px) {
@@ -724,7 +732,11 @@ footer {
         font-size: 0.75em;
     }
 
-    #video-wrapper{
-      width: 60%;
+    .video-frame{
+      height: 250px;
+    }
+
+    #locke-wrapper {
+      margin: auto
     }
 }
