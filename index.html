@@ -24,14 +24,11 @@
     <body>
         <!--------------------- Banner Section -------------------------->
         <section id='preloading-banner-wrapper'>
-          <div id = 'twin-peaks-wrapper'>
-            <img class='twin-peaks-image' src='images/overview/twinPeaksSquare.jpeg'>
-          </div>
             <div id="banner-title-wrapper">
                 <h1 id="banner-title">Hey, my name is Alex Li</h1>
                 <div id='banner-buttons'>
                     <a class='ext-button' target="_blank" href='assets/Li_Alexander_Resume.pdf'>Resume</a>
-                    <a class='ext-button' href='mailto:cds253@cornell.edu?Subject=[Web Inquiry]'>Contact Me</a>
+                    <a class='ext-button scroll' href='#footer'>Contact Me</a>
                 </div>
             </div>
         </section>
@@ -78,8 +75,8 @@
 
                 <div class='row work-section-wrapper'>
                     <div class='col-xs-12 col-md-push-6 col-md-6'>
-                      <div id='rocket-video-wrapper'>
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/oe9fK2Tqj4g" alight="middle" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      <div id='video-wrapper'>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/oe9fK2Tqj4g" alight="middle" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class='video-frame'></iframe>
                       </div>
                     </div>
 
@@ -108,13 +105,8 @@
 
                 <div class="row work-section-wrapper">
                     <div class='col-xs-12 col-md-push-6 col-md-6'>
-                        <div id="aaar-wrapper">
-                          <a class='web-dev-thumb-wrapper' href='assets/aaarFinal.pdf'>
-                            <img class='work-exp-image' src='images/work/aaarFinalCover.jpg' alt="RedRoute Inc. Icon">
-                            <div class='web-dev-thumb-overlay'>
-                                <h3 class='thumb-overlay-text'>View&nearr;</h3>
-                            </div>
-                          </a>
+                        <div id="video-wrapper">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/1D1uZb_k29k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class='video-frame'></iframe>
                         </div>
                     </div>
                     <div class='col-xs-12 col-md-pull-6 col-md-6'>
@@ -128,7 +120,8 @@
                                 researcher in a lab focused on environmental sustainability.
                                 Last year I worked on a Python application that uses noise filtering and pattern
                                 recognition to determine pollution levels in wood burning emissions. I
-                                presented our lab's work at the 2017 American Association for Aerosol Research conference.
+                                presented our lab's work at the <a href='assets/aaarFinal.pdf'>
+                                2017 American Association for Aerosol Research </a> conference.
                                 That project has sparked our lab's current initiative, to develop IoT systems
                                 that can report real-time environmental data such as air pollution. In making this
                                 data easily accessible, we can reduce the need for costly lab experiements.
@@ -142,15 +135,8 @@
                 <div class='row work-section-wrapper'>
 
                     <div class='col-xs-12 col-md-push-6 col-md-6'>
-                        <div class='web-dev-thumb-wrapper'>
-                          <a href="https://www.cuabscornell.com/">
-                            <div class='cuabs-wrapper'>
-                              <img class='work-exp-image' src='images/work/cuabsCover.png' alt="Cornell University Logo">
-                              <div class='web-dev-thumb-overlay'>
-                                <h3 class='thumb-overlay-text'>View&nearr;</h3>
-                              </div>
-                            </div>
-                          </a>
+                        <div class='video-wrapper'>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/zMogBUy124E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class='video-frame'></iframe>
                         </div>
                     </div>
 
@@ -178,8 +164,8 @@
                 <div class='row work-section-wrapper'>
 
                     <div class='col-xs-12 col-md-push-6 col-md-6'>
-                        <div id='youtube-wrapper'>
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/bvGsLisGUM4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id='video-wrapper'>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/bvGsLisGUM4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class='video-frame'></iframe>
                         </div>
                     </div>
 
@@ -297,6 +283,7 @@
         </div> <!-- end container -->
 
         <footer>
+          <a name="footer">
             <div class='container'>
                 <div class='row'>
                     <div class='col-md-6'>
@@ -306,6 +293,9 @@
                             </a>
                             <a class='social-icon' target='_blank' href='https://github.com/alex1li'>
                                 <img class='social-icon-img' src='images/icons/github.svg' alt='Github' data-toggle='tooltip' data-placement="top" title="Github">
+                            </a>
+                            <a class='social-icon' target='_blank' href='https://www.instagram.com/alex1li/'>
+                                <img class='social-icon-img' src='images/icons/instagram.svg' alt='Instagram' data-toggle='tooltip' data-placement="top" title="Instagram">
                             </a>
                             <a class='social-icon' target='_blank' href='assets/Li_Alexander_Resume.pdf'>
                                 <img class='social-icon-img' src='images/icons/resume.svg' alt='Resume' data-toggle='tooltip' data-placement="top" title="Resume">
@@ -324,7 +314,8 @@
                         <p id='copyright'>Copyright &copy; Alexander Li &bull; All Rights Reserved &bull; Under Active Development</p>
                     </div>
                 </div>
-            </div> <!-- end container -->
+            </div>
+          </a> <!-- end container -->
         </footer>
     </body>
 </html>

@@ -123,7 +123,9 @@ html, body {
 }
 
 /* Banner Styles **********************************/
+#scroll{
 
+}
 #banner-wrapper {
     height: 80vh;
 }
@@ -136,7 +138,7 @@ html, body {
 }
 
 #preloading-banner-wrapper {
-    background-image: url(../images/work/desktopB&W.jpg);
+    background-image: url(../images/overview/coverDark.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -146,13 +148,13 @@ html, body {
 
 #banner-title-wrapper {
     position: relative;
-    top: 13vh;
+    top: 48vh;
     text-align: center;
 }
 
 #banner-title {
     margin: 0;
-    font-size: 3em;
+    font-size: 1.9em;
     color: white;
 }
 
@@ -285,6 +287,10 @@ html, body {
     margin-top: 5px;
     margin-bottom: 15px;
     font-size: 1.15em;
+}
+
+.video-frame{
+  width: 100%;
 }
 
 /* Web Development Styles ***************************/
@@ -638,7 +644,7 @@ footer {
     }
 
     #banner-title {
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
     #banner-buttons {
@@ -716,5 +722,9 @@ footer {
 
     #copyright {
         font-size: 0.75em;
+    }
+
+    #video-wrapper{
+      width: 60%;
     }
 }
