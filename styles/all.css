@@ -91,7 +91,7 @@ html, body {
 }
 
 .text-block {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #4a4a4a;
     font-family: 'Lato', 'Helvetica Neue', serif;
     font-weight: 300;
@@ -250,7 +250,7 @@ html, body {
 }
 
 .launch-day {
-  dispaly: block;
+  display: block;
   margin: auto;
 }
 
@@ -674,7 +674,7 @@ footer {
     }
 
     .text-block {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .ext-link {
