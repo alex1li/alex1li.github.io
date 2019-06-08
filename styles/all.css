@@ -87,7 +87,7 @@ html, body {
 }
 
 .subsection-text-wrapper {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 .text-block {
@@ -483,12 +483,12 @@ html, body {
 footer {
     height: 150px;
     width: 100vw;
-    background-color: #cad7e8;
+    background-color: #ffffff;
     margin-top: 75px;
 }
 
 #social-row {
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -527,7 +527,7 @@ footer {
 }
 
 .contact-header {
-    font-family: Lato, 'Helvetica Neue', serif;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
     font-weight: 400;
     margin-top: 30px;
 }
@@ -688,11 +688,11 @@ footer {
     }
 
     .section-title {
-        font-size: 2em;
+        font-size: 25px;
     }
 
     .subsection-title {
-        font-size: 1.5em;
+        font-size: 25px;
     }
 
     .thumb-overlay-text {
@@ -700,7 +700,7 @@ footer {
     }
 
     .text-block {
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     .ext-link {
