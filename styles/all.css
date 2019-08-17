@@ -42,6 +42,13 @@ html, body {
     z-index: 1;
 }
 
+.footer-title{
+    font-size: 2em;
+    color: #4a4a4a;
+    position: relative;
+    z-index: 1;
+}
+
 .section-title:before {
     content: "";
     position: absolute;
@@ -56,11 +63,10 @@ html, body {
     font-size: 2em;
     color: #4a4a4a;
     font-family: 'Lato', 'Helvetica Neue', serif;
-    font-weight: 400;
-    position: relative;
-    z-index: 1;
-    margin: 0;
-    margin-bottom: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
 }
 
 .subsection-subtitle {
@@ -68,7 +74,7 @@ html, body {
     font-weight: 200;
 }
 
-.subsection-title-divider {
+.-divider {
     height: 2px;
     border-bottom: 2px solid #979797;
     position: absolute;
@@ -90,12 +96,24 @@ html, body {
     margin-top: 12px;
 }
 
-.text-block {
-    font-size: 1.3em;
+.intro-text-block {
+    font-size: 1.7em;
     color: #4a4a4a;
     font-family: 'Lato', 'Helvetica Neue', serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.text-block {
+    font-size: 1.3em;
+    color: #8F9094;
+    font-family: 'Lato', 'Helvetica Neue', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
 }
 
 .ext-button {
@@ -140,18 +158,21 @@ html, body {
 }
 
 #preloading-banner-wrapper {
-    background-image: url(../images/overview/coverDark.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 90vh;
     width: 100vw;
 }
 
 #banner-title-wrapper {
     position: relative;
-    top: 48vh;
+    top: 1vh;
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 #banner-title {
@@ -196,7 +217,7 @@ html, body {
 /* Overview Section Styles ************************/
 
 #overview-headshot {
-    width: 80%;
+    width: 60%;
     display: block;
     margin: auto;
 }
@@ -237,12 +258,12 @@ html, body {
 /* Work Experience Styles **************************/
 
 #work-exp-wrapper {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .work-section-wrapper {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 
@@ -488,7 +509,7 @@ footer {
 }
 
 #social-row {
-    margin-top: 50px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -560,7 +581,6 @@ footer {
 #preloading-wrapper {
     background: rgba(136, 169, 207, 0.75);
     position: relative;
-    height: 100vh;
     width: 100vw;
     overflow: hidden;
 }
@@ -631,7 +651,7 @@ footer {
     }
 
     #work-exp-wrapper {
-        margin-top: 30px;
+        margin-top: 100px;
     }
 
     #overview-headshot {
@@ -662,6 +682,9 @@ footer {
 
     .webapp{
       width: 560px;
+    }
+    .intro-text-block {
+        font-size: 18px;
     }
 
 
@@ -700,7 +723,10 @@ footer {
     }
 
     .text-block {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .intro-text-block {
+        font-size: 18px;
     }
 
     .ext-link {
@@ -721,7 +747,7 @@ footer {
     }
 
     #work-exp-wrapper {
-        margin-top: 30px;
+        margin-top: 100px;
     }
 
     #overview-headshot {
