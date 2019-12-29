@@ -5,6 +5,8 @@ Credits to Chris Sciavolino for help
 html, body {
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .left-align {
@@ -212,7 +214,7 @@ html, body {
   display: block;
   margin: auto;
   width: 300px;
-  border: 2px solid white;
+  border: 1px solid green;
   border-radius: 25px;
 }
 
@@ -253,7 +255,7 @@ html, body {
 
 #overview-text-wrapper {
     text-align: left;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 
@@ -505,9 +507,8 @@ html, body {
 
 footer {
     height: 150px;
-    width: 100vw;
     background-color: #ffffff;
-    margin-top: 75px;
+    padding-top: 75px;
 }
 
 #social-row {
@@ -794,7 +795,7 @@ footer {
         text-align: left;
     }
 
-    footer {
+     {
         height: 225px;
     }
 
