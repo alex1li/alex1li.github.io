@@ -7,6 +7,7 @@ html, body {
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
+    background-color: #EFEFEF;
 }
 
 .left-align {
@@ -31,6 +32,7 @@ html, body {
 
 
 
+body
 /* Section Global Styles **************************/
 
 .section-title-wrapper {
@@ -101,13 +103,14 @@ html, body {
 }
 
 .intro-text-block {
-    font-size: 1.7em;
+    font-size: 1.2em;
     color: #4a4a4a;
     font-family: 'Lato', 'Helvetica Neue', serif;
     font-weight: 500;
     margin-bottom: 20px;
-    max-width: 400px;
-    margin: auto;
+    max-width: 1000px;
+    margin: 15px;
+    text-align: left;
 }
 
 .text-block {
@@ -146,6 +149,7 @@ html, body {
     color: #4a4a4a;
 }
 
+
 /* Banner Styles **********************************/
 #scroll{
 
@@ -171,7 +175,7 @@ html, body {
 #banner-title-wrapper {
     position: relative;
     top: 1vh;
-    text-align: center;
+    text-align: left;
     max-width: 1000px;
     margin: auto;
     padding-left: 15px;
@@ -259,6 +263,8 @@ html, body {
 }
 
 
+
+
 /* Work Experience Styles **************************/
 
 #work-exp-wrapper {
@@ -266,7 +272,7 @@ html, body {
 }
 
 .work-section-wrapper {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -507,7 +513,6 @@ html, body {
 
 footer {
     height: 150px;
-    background-color: #ffffff;
     padding-top: 75px;
 }
 
@@ -531,8 +536,8 @@ footer {
 }
 
 .social-icon {
-    width: 64px;
-    height: 64px;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;
@@ -549,8 +554,8 @@ footer {
 .social-icon-img {
     margin: 0;
     padding: 5px;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     transition: 0.2s;
 }
 
@@ -649,8 +654,9 @@ footer {
     }
 
     .work-section-wrapper {
-        margin-top: 150px;
+        margin-top: 100px;
         margin-bottom: 50px;
+
     }
     .webapp{
       width: 455px;
@@ -663,7 +669,7 @@ footer {
     }
 
     .work-section-wrapper {
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
 
@@ -701,8 +707,8 @@ footer {
       width: 560px;
     }
     .intro-text-block {
-        font-size: 18px;
-        max-width: 300px;
+        font-size: 12px;
+        max-width: 500px;
     }
 
 
@@ -759,8 +765,8 @@ footer {
         font-size: 18px;
     }
     .intro-text-block {
-        font-size: 18px;
-        max-width: 300px;
+        font-size: 12px;
+        max-width: 500px;
     }
 
     .ext-link {
@@ -776,7 +782,7 @@ footer {
     }
 
     .work-section-wrapper {
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
 
@@ -833,7 +839,7 @@ footer {
     }
 
     #social-row {
-        padding-top: 40px;
+        padding-top: 30px;
         text-align: center;
     }
 }
