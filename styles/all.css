@@ -216,10 +216,9 @@ body
 }
 .twin-peaks-image {
   display: block;
-  margin: auto;
-  width: 300px;
-  border: 1px solid green;
-  border-radius: 25px;
+  margin: 10px;
+  width: 400px;
+  border-radius: 0px;
 }
 
 /* Overview Section Styles ************************/
@@ -730,6 +729,12 @@ footer {
         padding-top: 40px;
         text-align: center;
     }
+    .twin-peaks-image {
+      display: block;
+      margin: 10px;
+      width: 400px;
+      border-radius: 0px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -841,5 +846,12 @@ footer {
     #social-row {
         padding-top: 30px;
         text-align: center;
+    }
+    .twin-peaks-image {
+      display: block;
+      margin: 10px;
+      width: 80vw;
+      max-width: 400px;
+      border-radius: 0px;
     }
 }
